@@ -1,0 +1,30 @@
+    {
+    "manifest_version": 2,
+	
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+    "name": "Wikimap",
+    "description": "This is an early version of team Semicolon's wikimap addon",
+    "version": "1.0",
+    "content_scripts": [{
+        "run_at": "document_end",
+        "matches": [
+            "https://*/*",
+            "http://*/*"
+        ],
+        "js": ["js/jquery.js", "js/content-script.js"]
+    }],
+    "icons": {
+      "16": "icon.png"
+    },
+    "browser_action": {
+    },
+	"background": {
+		"scripts":["js/background.js"]
+	},
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/"
+    ],
+	"web_accessible_resources": ["popup.html", "tictactoe.html", "game.js", "misc.xml", "modal.css", "modules.xml", "vcs.xml", "wikiMapApp.html", "test.html", "map/Tree.html" ]
+  }

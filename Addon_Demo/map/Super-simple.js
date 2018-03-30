@@ -57,3 +57,6 @@ var simple_chart_config = {
 		]
 	}
 };
+
+
+new Treant( simple_chart_config );
