@@ -1,0 +1,149 @@
+/* COLORS USED ----------------------
+variations of #374761
+http://www.color-hex.com/color/374761
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* full-width input fields */
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 10px;
+}
+
+/* style for all buttons */
+button {
+    background-color: #374761;
+    color: white;
+    padding: 10px 10px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* left align logo and position close button */
+.imgcontainer {
+    text-align: left;
+    margin: 10px;
+    position: relative;
+}
+
+img.logo {
+    width: 15%;
+    border-radius: 50%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* modal background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top of other windows */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    padding-top: 0px;
+
+}
+
+/* modal box content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 0% auto 15% auto; /* 0% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 200px;
+}
+
+/* close button (x) */
+.close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #000;
+    font-size: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.vertical-menu {
+    width: auto;
+    max-height: 350px;
+    overflow-y: auto;
+    font-size: 12px;
+}
+
+.vertical-menu a1 {
+    background-color: #ffffff;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+.vertical-menu a2 {
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    color: black;
+    display: block;
+    padding: 10px;
+    text-indent: 15px;
+}
+
+.vertical-menu a3 {
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    color: black;
+    display: block;
+    padding: 10px;
+    text-indent: 30px;
+}
+
+.vertical-menu a1:hover, .vertical-menu a2:hover, .vertical-menu a3:hover {
+    background-color: #d7dadf;
+}
+
+.vertical-menu a1.green, .vertical-menu a2.green, .vertical-menu a3.green {
+    color: #6bb120;
+}
+
+.vertical-menu a1.yellow, .vertical-menu a2.yellow, .vertical-menu a3.yellow {
+    color: 	#ffc300
+}
+
+.vertical-menu a1.red, .vertical-menu a2.red, .vertical-menu a3.red {
+    color: 	#d64d4d;
+}
+
+/* change styles for span on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+}
