@@ -4,56 +4,101 @@
 	},
 	
 	"nodeStructure": {
-			"text": { "name": "Biology" },
-			"link":	{ "href": "https://en.wikipedia.org/wiki/Biology"},
+		"text": { "name": "Bioinformatics" },
+		"link":	{ "href": "https://en.wikipedia.org/wiki/Bioinformatics"},
 		"children": [
 			{
-				"text": { "name": "Anatomy" },
-				"link": { "href": "https://en.wikipedia.org/wiki/Anatomy"},
+				"text": { "name": "Molecular Biology"},
+				"link": { "href": "https://en.wikipedia.org/wiki/Molecular_biology"},
 				"children": [
-					{
-						"text": { "name": "Embryology"},
-						"link": {	"href": "https://en.wikipedia.org/wiki/Embryology"}
-					},
-					{
-						"text": { "name": "Evolutionary Biology"},
-						"link": { "href": "https://en.wikipedia.org/wiki/Evolutionary_biology"}
-					},
-					{
-						"text": { "name": "Phylogeny"},
-						"link": { "href": "https://en.wikipedia.org/wiki/Phylogenetic_tree"}
-					}
-				]
-			},
-			{
-				"childrenDropLevel": 2,
-				"text": { "name": "Cell Biology" },
-				"link": { "href": "https://en.wikipedia.org/wiki/Cell_biology"},
-				"children": [
-					{
-						"text": { "name": "Organelles"},
-						"link": { "href": "https://en.wikipedia.org/wiki/Organelle"}
-					}
-				]
-			},
-			{
-				"text": { "name": "Microbiology" },
-				"link": { "href": "https://en.wikipedia.org/wiki/Microbiology"}
-			},
-			{
-				"text": { "name": "Genetics"},
-				"link": { "href": "https://en.wikipedia.org/wiki/Genetics"},
-				"children": [
-					{
-						"text": { "name": "Genes"},
-						"link": {	"href": "https://en.wikipedia.org/wiki/Gene"}
-					},
-					{
-						"text": { "name": "Genetic Variation"},
-						"link": { "href": "https://en.wikipedia.org/wiki/Genetic_variation"}
-					}
-				]
-			}
-		]
+				{
+					"text": { "name": "Replication"},
+					"link": {	"href": "https://en.wikipedia.org/wiki/DNA_replication"}
+				},
+				{
+					"text": { "name": "Transcription"},
+					"link": {	"href": "https://en.wikipedia.org/wiki/Transcription_(biology)"}
+				},
+				{
+					"text": { "name": "Translation"},
+					"link": {	"href": "https://en.wikipedia.org/wiki/Translation_(biology)"}
+				},
+				{
+					"text": { "name": "Molecular Cloning"},
+					"link": {	"href": "https://en.wikipedia.org/wiki/Molecular_cloning"},
+					"children": [
+						{
+							"text": { "name": "Recombinant DNA"},
+							"link": {	"href": "https://en.wikipedia.org/wiki/Recombinant_DNA"}
+						},
+						{
+							"text": { "name": "Vector"},
+							"link": {	"href": "https://en.wikipedia.org/wiki/Vector_(molecular_biology)"},
+							"children": [
+								{
+									"text": { "name": "Plasmids"},
+									"link": {	"href": "https://en.wikipedia.org/wiki/Plasmid"}
+								},
+								{
+									"text": { "name": "Viral Vectors"},
+									"link": {	"href": "https://en.wikipedia.org/wiki/Viral_vector"}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"text": { "name": "Genomics"},
+			"link": {	"href": "https://en.wikipedia.org/wiki/Genomics"},
+			"children": [
+				{
+					"text": { "name": "DNA"},
+					"link": {	"href": "https://en.wikipedia.org/wiki/DNA"}
+				},
+				{
+					"text": { "name": "Genome Annotation"},
+					"link": {	"href": "https://en.wikipedia.org/wiki/DNA_annotation"}
+				},
+				{
+					"text": { "name": "DNA Sequencing"},
+					"link": {	"href": "https://en.wikipedia.org/wiki/DNA_sequencing"}
+				}
+			]
+		},
+		{
+			"text": { "name": "Proteomics"},
+			"link": { "href": "https://en.wikipedia.org/wiki/Proteomics"},
+			"children": [
+				{
+					"text": { "name": "Proteome"},
+					"link": {	"href": "https://en.wikipedia.org/wiki/Proteome"}
+				},
+				{
+					"text": { "name": "Protein"},
+					"link": {	"href": "https://en.wikipedia.org/wiki/Protein"}
+				},
+				{
+					"text": { "name": "Phosphorylation"},
+					"link": {	"href": "https://en.wikipedia.org/wiki/Protein_phosphorylation"},
+					"children": [
+						{
+							"text": { "name": "PTM"},
+							"link": {	"href": "https://en.wikipedia.org/wiki/Post-translational_modification"}
+						},
+						{
+							"text": { "name": "Amino Acid"},
+							"link": {	"href": "https://en.wikipedia.org/wiki/Amino_acid"}
+						},
+						{
+							"text": { "name": "Kinase"},
+							"link": {	"href": "https://en.wikipedia.org/wiki/Kinase"}
+						}
+					]
+				}
+			]
+		}
+	]
 	}
 }
