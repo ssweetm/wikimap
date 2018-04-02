@@ -22,3 +22,19 @@ document.addEventListener('DOMContentLoaded', function () {
   
 });
 
+
+function processForm(e) {
+    if (e.preventDefault) e.preventDefault();
+
+    document.getElementById('blank').hidden=true;
+	document.getElementById('biology').hidden=false;
+    return false;
+}
+
+var form = document.getElementById('searchform');
+if (form.attachEvent) {
+    form.attachEvent("submit", processForm);
+} else {
+    form.addEventListener("submit", processForm);
+}
+

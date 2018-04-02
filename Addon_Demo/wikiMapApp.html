@@ -163,7 +163,7 @@ span.psw {
 <div id="id01">
 
     <!-- CHANGE ACTION WHEN SEARCH CLICKED -->
-    <form class="modal-content" action="https://en.wikipedia.org/w/index.php">
+    <form id="searchform" class="modal-content" >
         <div class="imgcontainer">
             <span  id="closeaddon" class="close" title="Close Modal">&times;</span>
             <!-- CHANGE IMAGE TO OUR LOGO -->
@@ -176,7 +176,10 @@ span.psw {
         </div>
         <hr>
         <!-- CONDITIONAL NEEDED TO DEFINE SUBMENU ITEMS AFTER SEARCH-->
-        <div class="vertical-menu">
+        <div id="blank" class="vertical-menu" >
+            <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+        </div>
+        <div id="biology" class="vertical-menu" hidden>
             <a1 href="#" class="green">Link 1</a1>
             <a2 href="#" class="yellow">Link 1A</a2>
             <a2 href="#" class="green">Link 1B</a2>
