@@ -1,3 +1,4 @@
+// listens for the message from the main page to give the proper display based on search term
 chrome.runtime.onMessage.addListener(function(msg, sender){
     if(msg == "biology"){
     }
@@ -8,6 +9,6 @@ chrome.runtime.onMessage.addListener(function(msg, sender){
 	});
 })
 
-
-		chrome.runtime.sendMessage("1");
+// ask for the search term after listener is enabled
+chrome.runtime.sendMessage("1");
 
