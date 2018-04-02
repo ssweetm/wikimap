@@ -1,0 +1,8 @@
+How to run this chrome extension.
+1. Open a Google Chrome Browser window
+2. Navigate to the extensions management page ( chrome://extensions )
+3. Click on "Load Unpacked" and select the Addon_Demo Folder
+4. the extension should now be loaded and can be run by clicking on its icon in the top right of the browser
+Note: the extension will require you to refresh any tabs that were open when the extension was loaded to run on them.
+Also the extension will not run on chrome reserved pages (the new tab page, the extensions page, the setting page, etc)
+
