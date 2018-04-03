@@ -7,3 +7,7 @@ How to run this chrome extension.
 Note: the extension will require you to refresh any tabs that were open when the extension was loaded to run on them.
 Also the extension will not run on chrome reserved pages (the new tab page, the extensions page, the setting page, etc)
 
+
+Searching for a topic or term will display the appropriate dataset
+Currently the addon supports one dataset and it will be displayed no matter what search criteria is used
+
